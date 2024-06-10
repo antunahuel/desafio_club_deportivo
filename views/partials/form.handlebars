@@ -1,0 +1,14 @@
+<form id="formDeportes">
+    <div class="mt-3">
+        <label class="form-label" for="deporte">Deporte</label>
+        <input class="form-control" type="text" name="deporte" id="deporte" required>
+    </div>
+    <div class="mt-3">
+        <label class="form-label" for="precio">Precio</label>
+        <input class="form-control" type="number" name="precio" id="precio" min="0" max="60000" required>
+    </div>
+    <div class="mt-3 text-center">
+        <input class="btn btn-dark w-25 me-5 fw-bold" type="submit" value="Enviar">
+        <a class="btn btn-dark fw-bold" href="/api/deportes">ver documento</a>
+    </div>
+</form>
